@@ -15,6 +15,11 @@ class MyApp extends StatelessWidget {
       ),
       debugShowCheckedModeBanner: false,
       home: Scaffold(
+        child: TextSpan(""
+          children: [
+            
+          ],
+        ), 
         body: Center(
           child: MyWidget(),
         ),
